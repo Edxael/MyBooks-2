@@ -8,7 +8,7 @@ var Book = require('./views/dbSchemas/01-book');
 
 
 // ----- Conecting to the DataBase ------
-mongoose.connect('mongodb://bookuser:book123@ds013564.mlab.com:13564/books1', function(err){
+mongoose.connect('mongodb://<UserNameGoesHere>:<PasswordGoesHere>@ds013564.mlab.com:13564/books1', function(err){
 if(err){
   console.log(err);
 }else {
